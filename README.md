@@ -93,7 +93,9 @@
 
 1. 部署 CF Pages：
    - 在 Github 上先 Fork 本项目，并点上 Star !!!
-   - 在 CF Pages 控制台中选择 `连接到 Git`后，选中 `edgetunnel`项目后点击 `开始设置`。
+   - 在 CF Pages 控制台中选择 `连接到 Git`后，选中 `edgetunnel`项目后点
+<!-- trigger redeploy for Cloudflare Pages config update -->
+击 `开始设置`。
    - 在 `设置构建和部署`页面下方，选择 `环境变量（高级）`后并 `添加变量`
      变量名称填写**ADMIN**，值则为你的管理员密码，后点击 `保存并部署`即可。
 
